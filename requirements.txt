@@ -1,0 +1,9 @@
+numpy
+matplotlib
+tensorflow2
+tensorflow.keras
+sklearn
+os
+glob
+ipython
+jupyter-notebok
