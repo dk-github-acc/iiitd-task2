@@ -7,3 +7,16 @@ os
 glob
 ipython
 jupyter-notebok
+from sklearn.model_selection import train_test_split
+from keras.utils import to_categorical
+from keras.utils.vis_utils import plot_model
+
+from keras.callbacks import EarlyStopping, ReduceLROnPlateau
+import pandas as pd
+from sklearn.metrics import accuracy_score, mean_absolute_error, confusion_matrix, classification_report
+
+import tensorflow as tf
+from tensorflow.keras.datasets import mnist
+
+from tensorflow.keras.models import load_model
+from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten, Dropout, BatchNormalization
