@@ -1,4 +1,5 @@
 # iiitd-task2
+I worked on google colab, so the downloaded dataset and model checkpoints are saved in the drive.
 
 Task 2
 
